@@ -1,6 +1,6 @@
 
 export { default as LayOut } from './LayOut';
-export { default as NavBar } from './NavBar';
+export { default as Navbar } from './NavBar';
 export { default as Product } from './Product';
 export { default as HeroBanner } from './HeroBanner';
 export { default as FooterBanner } from './FooterBanner';
