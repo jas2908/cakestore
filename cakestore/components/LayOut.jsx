@@ -1,10 +1,12 @@
+'use client';
+
 import React from 'react';
 import Head from 'next/head';
 
 import Navbar from './Navbar';
 import Footer from './Footer';
 
-const Layout = ({ children }) => {
+const LayOut = ({ children }) => {
   return (
       <div className="layout">
         <Head>
@@ -23,4 +25,4 @@ const Layout = ({ children }) => {
   )
 }
 
-export default Layout
+export default LayOut
