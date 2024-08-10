@@ -4,7 +4,7 @@ import ImageUrlBuilder from '@sanity/image-url';
 export const client = sanityClient({
     projectId:'0iq7zeju',
     dataset: 'production',
-    apiVersion: '2023-08-01',
+    apiVersion: 'v2022-03-07',
     useCdn: true,
     token: process.env.NEXT_PUBLIC_SANITY_TOKEN
 });

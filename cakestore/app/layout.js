@@ -17,9 +17,9 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en">
         <body className={inter.className}>
-        <StateContext> {/* Wrap with your context provider */}
-            <LayOut> {/* Use your custom layout */}
-                <Toaster /> {/* Include Toaster */}
+        <StateContext>
+            <LayOut>
+                <Toaster />
                 {children}
             </LayOut>
         </StateContext>
