@@ -7,14 +7,17 @@ import { useStateContext } from '@/context/StateContext';
 import Product from './Product';
 
 const ProductDetail = ({ product, products }) => {
-    // 1. Safety Guard: Prevents the "Cannot destructure property 'image' of 'product' as it is null" crash
+    // 1. Hooks MUST come first at the very top of the component
+    const [index, setIndex] = useState(0);
+    const { decQty, incQty, qty, onAdd, setShowCart } = useStateContext();
+
+    // 2. Safety Guard clause is moved HERE (after hooks, before destructuring)
     if (!product) {
         return <div className="loading">Loading cake details...</div>;
     }
 
+    // 3. Destructure properties only after we are 100% sure product exists
     const { image, name, details, price } = product;
-    const [index, setIndex] = useState(0);
-    const { decQty, incQty, qty, onAdd, setShowCart } = useStateContext();
 
     const handleBuyNow = () => {
         onAdd(product, qty);
@@ -26,11 +29,9 @@ const ProductDetail = ({ product, products }) => {
             <div className="product-detail-container">
                 <div>
                     <div className="image-container">
-                        {/* 2. Safely renders the current image array index without trailing .url() */}
-                        <img src={urlFor(image && image[index])} className="product-detail-image" alt={name} />
+                        <img src={urlFor(image && image[index])} className="product-detail-image" alt={name || "cake"} />
                     </div>
                     
-                    {/* 3. Small Image Thumbnails List */}
                     <div className="small-images-container">
                         {image?.map((item, i) => (
                             <img 
