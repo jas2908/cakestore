@@ -7,6 +7,11 @@ import { useStateContext } from '@/context/StateContext';
 import Product from './Product';
 
 const ProductDetail = ({ product, products }) => {
+    // 1. Safety Guard: Prevents the "Cannot destructure property 'image' of 'product' as it is null" crash
+    if (!product) {
+        return <div className="loading">Loading cake details...</div>;
+    }
+
     const { image, name, details, price } = product;
     const [index, setIndex] = useState(0);
     const { decQty, incQty, qty, onAdd, setShowCart } = useStateContext();
@@ -21,7 +26,21 @@ const ProductDetail = ({ product, products }) => {
             <div className="product-detail-container">
                 <div>
                     <div className="image-container">
-                        <img src={urlFor(image && image[index])} className="product-detail-image" />
+                        {/* 2. Safely renders the current image array index without trailing .url() */}
+                        <img src={urlFor(image && image[index])} className="product-detail-image" alt={name} />
+                    </div>
+                    
+                    {/* 3. Small Image Thumbnails List */}
+                    <div className="small-images-container">
+                        {image?.map((item, i) => (
+                            <img 
+                                key={item._key || i}
+                                src={urlFor(item)}
+                                className={i === index ? 'small-image selected-image' : 'small-image'}
+                                onMouseEnter={() => setIndex(i)}
+                                alt=""
+                            />
+                        ))}
                     </div>
                 </div>
 
@@ -59,7 +78,7 @@ const ProductDetail = ({ product, products }) => {
                 <h2>You may also like</h2>
                 <div className="marquee">
                     <div className="maylike-products-container track">
-                        {products.map((item) => (
+                        {products?.map((item) => (
                             <Product key={item._id} product={item} />
                         ))}
                     </div>

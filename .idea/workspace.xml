@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4c685652-074d-4f6c-9044-7ccee15b7fe2" name="Changes" comment="dependency check">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2kSWFg5SmOrMVY2ScXh6AKJFT4h" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jask_\IdeaProjects\cakestore\cakestore\app" />
+      <recent name="C:\Users\jask_\IdeaProjects\cakestore\cakestore\.next" />
+      <recent name="C:\Users\jask_\IdeaProjects\cakestore\cakestore\app\product" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="cakestore" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="cakestore" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4c685652-074d-4f6c-9044-7ccee15b7fe2" name="Changes" comment="" />
+      <created>1723277355978</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1723277355978</updated>
+      <workItem from="1723277357375" duration="32269000" />
+      <workItem from="1723323655545" duration="1278000" />
+      <workItem from="1729602878267" duration="12000" />
+      <workItem from="1729602901062" duration="652000" />
+      <workItem from="1729615169673" duration="732000" />
+    </task>
+    <task id="LOCAL-00001" summary="footer banner complete">
+      <created>1723283978313</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1723283978313</updated>
+    </task>
+    <task id="LOCAL-00002" summary="layout component complete">
+      <created>1723284097050</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723284097050</updated>
+    </task>
+    <task id="LOCAL-00003" summary="minor bug fix">
+      <created>1723297267342</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1723297267342</updated>
+    </task>
+    <task id="LOCAL-00004" summary="nav bar complete">
+      <created>1723297944348</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1723297944348</updated>
+    </task>
+    <task id="LOCAL-00005" summary="product details page">
+      <created>1723311666829</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1723311666829</updated>
+    </task>
+    <task id="LOCAL-00006" summary="stripe functionality">
+      <created>1723321295635</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1723321295635</updated>
+    </task>
+    <task id="LOCAL-00007" summary="dependency check">
+      <created>1723321948942</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1723321948942</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="footer banner complete" />
+    <MESSAGE value="layout component complete" />
+    <MESSAGE value="minor bug fix" />
+    <MESSAGE value="nav bar complete" />
+    <MESSAGE value="product details page" />
+    <MESSAGE value="stripe functionality" />
+    <MESSAGE value="dependency check" />
+    <option name="LAST_COMMIT_MESSAGE" value="dependency check" />
+  </component>
+</project>
